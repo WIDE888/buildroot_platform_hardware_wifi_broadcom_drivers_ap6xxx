@@ -15548,6 +15548,9 @@ static s32 wl_notifier_change_state(struct bcm_cfg80211 *cfg, struct net_info *_
 			pm = PM_FAST;
 #ifdef RTT_SUPPORT
 			rtt_status = GET_RTTSTATE(dhd);
+			if (rtt_status == NULL)
+				return 0;
+
 			if (rtt_status->status != RTT_ENABLED) {
 #endif /* RTT_SUPPORT */
 				if (dhd_conf_get_pm(dhd) >= 0)
