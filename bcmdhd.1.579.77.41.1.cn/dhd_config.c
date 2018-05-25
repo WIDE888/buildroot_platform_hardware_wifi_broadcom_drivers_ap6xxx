@@ -82,7 +82,7 @@ const cihp_name_map_t chip_name_map [] = {
 	{BCM4354_CHIP_ID,	2,	DONT_CARE,	FALSE,	"bcm4356a2_ag",		""},
 	{BCM4356_CHIP_ID,	2,	DONT_CARE,	FALSE,	"bcm4356a2_ag",		""},
 	{BCM4371_CHIP_ID,	2,	DONT_CARE,	FALSE,	"bcm4356a2_ag",		""},
-	{BCM43569_CHIP_ID,	3,	DONT_CARE,	FALSE,	"bcm4358a3_ag",		""},
+	{BCM43569_CHIP_ID,	3,	DONT_CARE,	FALSE,	"bcm4358_ag",		""},
 	{BCM4359_CHIP_ID,	5,	DONT_CARE,	FALSE,	"bcm4359b1_ag",		""},
 	{BCM4359_CHIP_ID,	9,	DONT_CARE,	FALSE,	"bcm4359c0_ag",		""},
 	{BCM4362_CHIP_ID,	0,	DONT_CARE,	TRUE,	"bcm43752a0_ag",	""},
